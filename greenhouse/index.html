@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Greenhouse, your sustainable solution for home gardening and plant care.">
+  <title>Greenhouse | Grow Your Green World!</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><h1>Greenhouse</h1></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Greenhouse</h2>
+      <p>Your sustainable home for fresh plants and innovative gardening ideas.</p>
+      <button onclick="scrollToServices()">Explore More</button>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Plant Care</h3>
+        <p> Smart Plant Care
+          Monitor your plants in real-time with IoT sensors for soil moisture, temperature, and light. Get personalized care tips and alerts through your dashboard.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Greenhouses</h3>
+        </p>Design a greenhouse with IoT sensors to control temperature, humidity, and light. Access real-time data and automate climate control through a personalized website or app.</p>
+      </div>
+      <div class="card">
+        <h3>Organic Products</h3>
+        <p>Shop eco-friendly gardening products that connect to your IoT platform, giving you real-time insights to optimize watering, fertilizing, and plant health.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="gin.jpg.png" alt="Greenhouse Interior">
+      <img src="ptc.jpg.png" alt="Plant Care">
+      <img src="cst.jpg.png" alt="Custom Greenhouses">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Greenhouse | Sustainable Gardening for a Better Tomorrow</p>
+  </footer>
+
+</body>
+</html>
