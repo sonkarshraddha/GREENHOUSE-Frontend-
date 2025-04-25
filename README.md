@@ -21,7 +21,6 @@ Welcome to the **Greenhouse** project, a modern and sustainable solution for hom
 - **Node.js** for serial communication with Arduino devices to track temperature and humidity data.
 
 ## Getting Started
-
 ### Prerequisites
 
 Make sure you have the following installed:
